@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+	</head>
+ <style>
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: silver;
+    }
+    li {
+        float: left;
+    }
+    li a {
+        display: block;
+        color: aqua;
+        font-size: 18px;
+        text-align: center;
+        padding: 12px 16px;
+        text-decoration: none;
+    }
+    li a:hover {
+        background-color: #111;
+    }
+</style>
+</head>
+<body>
+	</head>
+<body>
+
+	 <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+          crossorigin="anonymous">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <class="container">
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+                    aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+                <body>    
+                    </li>
+                    
+
+                    <li  class="menú" class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="menu-citas" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">Inicio</a>
+                        <div class="dropdown-menu" aria-labelledby="menu-Inicio">
+                            <a class="dropdown-item" href="Agendar Cita.html">Registrar Cita</a> 
+                           <a class="dropdown-item" href="#">Modificar Cita</a>
+                            <a class="dropdown-item" href="Cancelar cita.html">Eliminar Cita</a>
+                        </div>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="menu-pacientes" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">Registrarce</a>
+                        <div class="dropdown-menu" aria-labelledby="menu-Registrarce">
+                           <a class="dropdown-item" href="Registrar usuario.html">Registrar Paciente</a>
+                            <a class="dropdown-item" href="#">Modificar Paciente</a>
+                            <a class="dropdown-item" href="#">Eliminar Paciente</a>
+                        </div>
+                         <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="menu-Inicio de seccion" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">Inicia seccion</a>
+                        <div class="dropdown-menu" aria-labelledby="menu-Inicio de seccion">
+                           <a class="dropdown-item" href="Inicio de seccion.html">Login</a>
+                            <a class="dropdown-item" href="#">Cambiar clave</a>
+                            
+                        </div>
+                          <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="menu-servicios" data-toggle="dropdown"
+                           aria-haspopup="true" aria-expanded="false">Servicios</a>
+                        <div class="dropdown-menu" aria-labelledby="menu-servicios">
+                           <a class="dropdown-item" href="Servicios.html">Generales</a>
+                            <a class="dropdown-item" href="#">Con espesialistas</a>
+                            
+                        </div>
+
+
+                    
+                     
+                   
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Bootstrap core JavaScript -->
+   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper-base"
+            integrity="sha384-WC3UGxCGO3qPh1V5XX4DDQ+jlcJv+p+u7HiX0TfWqNnSc2JFB6Wg2d9KdyP1dCqj"
+            crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+            integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+            crossorigin="anonymous"></script>
+</body>
+	<title>cancelar Cita Médica</title>
+
+	<style>
+		body{
+			background-color: #f2f2f2;
+		}
+		.container{
+			padding: 20px;
+			background-color: #fff;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px #888888;
+			margin: 50px auto;
+			width: 50%;
+            max-width: 600px;
+		}
+		h1{
+			text-align: center;
+			color: aqua;
+            font-size: 1.8em;
+            margin-bottom: 30px;
+		}
+		form{
+			display: flex;
+			flex-direction: column;
+            align-items: center;
+		}
+		label{
+			font-weight: bold;
+			margin-bottom: 5px;
+            display: block;
+            width: 100%;
+            text-align: left;
+		}
+		input[type="text"], input[type="email"], select{
+			padding: 5px;
+			border-radius: 5px;
+			border: none;
+			margin-bottom: 10px;
+			font-size: 1em;
+			width: 80%;
+            max-width: 400px;
+		}
+		input[type="submit"]{
+			background-color: red;
+			color: #fff;
+			padding: 10px;
+			border-radius: 5px;
+			border: none;
+			font-size: 1.2em;
+			cursor: pointer;
+			margin-top: 20px;
+			align-self: center;
+		}
+
+
+	</style>
+</head>
+<title>cancelar cita medica</title>
+	<style>
+body{
+			background-color: #f2f2f2;
+		}
+		.container{
+			padding: 20px;
+			background-color: #fff;
+			border-radius: 10px;
+			box-shadow: 0px 0px 10px #888888;
+			margin: 50px auto;
+			width: 50%;
+            max-width: 600px;
+		}
+		h1{
+			text-align: center;
+			color: aqua;
+            font-size: 1.8em;
+            margin-bottom: 30px;
+		}
+		form{
+			display: flex;
+			flex-direction: column;
+            align-items: center;
+		}
+		label{
+			font-weight: bold;
+			margin-bottom: 5px;
+            display: block;
+            width: 100%;
+            text-align: left;
+		}
+		input[type="text"], input[type="email"], select{
+			padding: 5px;
+			border-radius: 5px;
+			border: none;
+			margin-bottom: 10px;
+			font-size: 1em;
+			width: 80%;
+            max-width: 400px;
+		}
+		input[type="submit"]{
+			background-color: red;
+			color: #fff;
+			padding: 10px;
+			border-radius: 5px;
+			border: none;
+			font-size: 1.2em;
+			cursor: pointer;
+			margin-top: 20px;
+			align-self: center;
+		}
+
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<img src="LOGO.png"width="50px" style="float: left">
+		<h1>Cancelar cita</h1>
+		<form>	
+			<label for="tipo_documento">Tipo de Documento:</label>
+			<select id="tipo_documento" name="tipo_documento" required>
+				<option value="">Selecciona un tipo de documento</option>
+				<option value="CC">Cédula de Ciudadanía</option>
+				<option value="TI">Tarjeta de Identidad</option>
+				<option value="CE">Cédula de Extranjería</option>
+			</select>
+
+			<label for="N° de documento">N° Documento:</label>
+			<textarea input type="text" id="N° Documento" name="nombres" required></textarea>
+			
+			<input type="submit" value="Cancelar cita Cita">
+		</form>
+	</div>
+</body>
+</html>
